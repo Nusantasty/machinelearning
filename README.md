@@ -54,6 +54,7 @@ Uses K-Nearest Neighbors (KNN) for collaborative filtering to suggest recipes ba
 - Recommend recipes with the highest similarity while considering the user's dislikes and preferences.
 
 <br>
+
 ### Get Recipes
 
 Applies TF-IDF vectorization and cosine similarity to recommend recipes based on the ingredients users have at home.
