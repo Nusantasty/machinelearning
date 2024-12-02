@@ -1,12 +1,12 @@
-﻿# Nusantasty --> Machine Learning for Recipe Recommendations
+# Nusantasty: Machine Learning for Recipe Recommendations
 
-This repository contains the code and resources for a machine learning project focused on generating recipe recommendations based on user input ingredients.
+This repository hosts the code and resources for a machine learning project designed to recommend recipes based on ingredients provided by users.
 
 ## Project Structure
 
-- `data/`: Contains datasets used for training and evaluation.
-- `notebooks/`: Jupyter notebooks with exploratory data analysis and model development.
-- `.gitignore`: Specifies files to be ignored by git.
+- `data/`: Includes datasets used for training and evaluation.
+- `notebooks/`: Contains Jupyter notebooks for exploratory data analysis and model development.
+- `.gitignore`: Specifies files and directories to exclude from version control.
 
 ## Getting Started
 
@@ -14,39 +14,34 @@ This repository contains the code and resources for a machine learning project f
 
 - Python 3.10+
 - Jupyter Notebook
-- Required Python packages listed in `requirements.txt`
+- Install dependencies listed in `requirements.txt`
 
 ### Installation
 
 1. Clone the repository:
-
    ```bash
    git clone https://github.com/rajabagung/Nusantasty-ML-Part.git
    cd Nusantasty-ML-Part
    ```
 
-2. Clone the repository:
+2. Install dependencies:
    ```bash
    pip install -r requirements.txt
-   ```
-3. Run the Jupyter Notebook:
-   ```bash
-   jupyter notebook
    ```
 
 ## Usage
 
-- Open the notebooks in the notebooks/ directory to explore the data and model training process.
-- Modify and run the notebooks to train the model and generate recommendations based on your own input data.
-
+- Open the notebooks in the notebooks/ directory to explore datasets and train models.
+- Modify and execute the notebooks to generate recipe recommendations based on your input data.
+- 
 ## Datasets
 
 - `recipes.csv`: Contains recipe information including ingredients, instructions, and nutritional data.
-- `ratings.csv`: Contains user ratings for different recipes.
+- `ratings.csv`: Contains user ratings for various recipes.
 
 ### Recommended for You
 
-Utilizes K-Nearest Neighbors (KNN) for collaborative filtering to recommend recipes based on user-item interactions and user preferences.
+Uses K-Nearest Neighbors (KNN) for collaborative filtering to suggest recipes based on user preferences.
 
 1. User Interactions:
 
@@ -62,7 +57,7 @@ Utilizes K-Nearest Neighbors (KNN) for collaborative filtering to recommend reci
 
 ### Get Recipes
 
-Employs TF-IDF vectorization and cosine similarity to recommend recipes based on the ingredients available at home.
+Applies TF-IDF vectorization and cosine similarity to recommend recipes based on the ingredients users have at home.
 
 1. User Inputs:
 
@@ -73,9 +68,9 @@ Employs TF-IDF vectorization and cosine similarity to recommend recipes based on
 
 - Retrieve stored dislikes and allergies from Firebase.
 - Apply TF-IDF vectorization on user input ingredients.
-- Compute cosine similarity to find top N similar recipes.
-- Generate and recommend recipes that do not contain the disliked or allergenic ingredients.
+- Compute cosine similarity to find top-N similar recipes.
+- Generate and recommend recipes that avoid disliked or allergenic ingredients.
 
 ## License
 
-2024
+© 2024
