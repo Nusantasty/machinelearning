@@ -33,7 +33,7 @@ This repository hosts the code and resources for a machine learning project desi
 
 - Open the notebooks in the notebooks/ directory to explore datasets and train models.
 - Modify and execute the notebooks to generate recipe recommendations based on your input data.
-- 
+  
 ## Datasets
 
 - `recipes.csv`: Contains recipe information including ingredients, instructions, and nutritional data.
