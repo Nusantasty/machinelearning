@@ -20,8 +20,8 @@ This repository hosts the code and resources for a machine learning project desi
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/rajabagung/Nusantasty-ML-Part.git
-   cd Nusantasty-ML-Part
+   git clone https://github.com/Nusantasty/machinelearning.git
+   cd machinelearning
    ```
 
 2. Install dependencies:
